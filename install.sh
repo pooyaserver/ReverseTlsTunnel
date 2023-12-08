@@ -2,16 +2,11 @@
 
 echo
 echo "
- █████╗ ██████╗ ███╗   ███╗ █████╗ ███╗   ██╗██╗    ██████╗  █████╗ ███████╗██╗  ██╗
-██╔══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║██║    ██╔══██╗██╔══██╗██╔════╝██║  ██║
-███████║██████╔╝██╔████╔██║███████║██╔██╗ ██║██║    ██████╔╝███████║███████╗███████║
-██╔══██║██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║██║    ██╔══██╗██╔══██║╚════██║██╔══██║
-██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║██║    ██████╔╝██║  ██║███████║██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+Pooya Server
 "
-echo "***** https://github.com/armanibash *****"
-echo "***** https://www.youtube.com/@armanibash *****"
-echo "***** RTT-ReverseTlsTunnel *****"
+echo "***** https://github.com/pooyaserver *****"
+echo "***** https://t.me/Pooya_Server *****"
+echo "***** ReverseTlsTunnel *****"
 echo
 sleep 1
 
@@ -129,8 +124,8 @@ read -r -p "Select Number(Default is: 3):" CHS
 case $CHS in
     1)  echo "Be carefull SSH port must under 23"
     echo "Multiport is activated all ports above 22 were forwarded"
-    read -r -p "RTT PASS(Default is: Armani@bash): " TOPASS
-    TOPASS=${TOPASS:-"Armani@bash"}
+    read -r -p "RTT PASS(Default is: Pooya@Server): " TOPASS
+    TOPASS=${TOPASS:-"Pooya@Server"}
     read -r -p "RTT SNI(Default is: cloudflare.com): " SNI
     SNI=${SNI:-"cloudflare.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
@@ -147,8 +142,8 @@ case $CHS in
     2)     echo "Be carefull SSH port must under 23"
     echo "Multiport is activated all ports above 22 were forwarded"
     read -r -p "RTT IP(Enter Iran IP): " EXIP
-    read -r -p "RTT PASS(Default is: Armani@bash): " TOPASS
-    TOPASS=${TOPASS:-"Armani@bash"}
+    read -r -p "RTT PASS(Default is: Pooya@Server): " TOPASS
+    TOPASS=${TOPASS:-"Pooya@Server"}
     read -r -p "RTT SNI(Default is: cloudflare.com): " SNI
     SNI=${SNI:-"cloudflare.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
