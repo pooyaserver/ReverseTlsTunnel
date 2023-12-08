@@ -1,4 +1,4 @@
-# RTT-ReverseTlsTunnel تانل معکوس
+# ReverseTlsTunnel تانل معکوس
 سیستم عامل پیشنهادی : ubuntu 22
 
 بهترین روش تونل کردن دو تا سرور ایران و خارج همین روش Reverse Tls Tunnel هستش که خیلی ها الان با مفهموش آشنا هستید .
