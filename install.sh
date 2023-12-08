@@ -114,7 +114,15 @@ systemctl daemon-reload
 systemctl --now enable tunnel.service
 systemctl start tunnel.service
 }
+#ip  & version
+myip=$(hostname -I | awk '{print $1}')
+version=$(./RTT -v 2>&1 | grep -o 'version="[0-9.]*"')
 
+# Main menu
+clear
+echo -e "${cyan}By --> PooyaServer * Github.com/pooyaserver * ${rest}"
+echo -e "Your IP is: ${cyan}($myip)${rest} "
+echo -e 
 echo "Select Server Location:"
 echo "1.Iran(Internal)"
 echo "2.kharej(External)"
