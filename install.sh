@@ -39,6 +39,7 @@ valid_os()
 {
     case "$DISTRO" in
     "debiangnu/linux"|"ubuntu")
+    "debiangnu/linux"|"CentOS")
         return 0;;
     *)
         echo "OS $DISTRO is not supported"
